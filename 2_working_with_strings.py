@@ -43,6 +43,7 @@ declaration_of_independence ="We hold these truths to be self-evident, that all 
 # # ----------------------------------------
 
 chicago_mayor = "Johnson"
+print(chicago_mayor[0:4])
 print(len(chicago_mayor))
 print(chicago_mayor[0])
 print(chicago_mayor[4])
