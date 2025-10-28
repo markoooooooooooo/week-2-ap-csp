@@ -25,18 +25,28 @@ phrase = "Python is FUN!"
 # print("Lowercase:", phrase.lower())  # Output: python is fun!
 
 # # Convert all characters to uppercase
-# print("Uppercase:", phrase.upper())  # Output: PYTHON IS FUN!
+print("Uppercase:", phrase.isupper())  # Output: PYTHON IS FUN!
 
 # # Check if all characters are uppercase
-# print("Is Uppercase?", phrase.isupper())  # Output: False
+print("Is Uppercase?", phrase.isupper())  # Output: False
+
+name = "marko"
+#upper case
+# lower case
+#print them out
 
 # # Find the length of the string
-# print("Length of phrase:", len(phrase))  # Output: 14
-
+print("Length of phrase:", len(phrase))  # Output: 14
+declaration_of_independence ="We hold these truths to be self-evident, that all men are created equal, that they are endowed, by their Creator, with certain unalienable rights, that among these are life, liberty, and the pursuit of happiness"
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
 
+chicago_mayor = "Johnson"
+print(len(chicago_mayor))
+print(chicago_mayor[0])
+print(chicago_mayor[4])
+print(chicago_mayor[-1])
 # # Indexing: Access characters by position (0-based index)
 # print("First character:", phrase[0])  # Output: P
 # print("Last character:", phrase[-1])  # Output: !
