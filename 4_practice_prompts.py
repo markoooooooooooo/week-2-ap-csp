@@ -19,9 +19,11 @@ print(500 + 55)
 
 ##############################################################################################################
 # Find 3 objects around the room and create variables from it,
-# Insert those variables into an f-string sentence(look at slide 22)in repl.it
-
-
+# Insert those variables into an f-string sentence(look at slide 22)
+object1 = chair
+object2 = poster
+object3 = backpack
+print
 # Familiarize yourself with the syntax of the print() function.
 # Print your name.
 # Print today's date.
