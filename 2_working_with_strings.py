@@ -49,9 +49,9 @@ print(chicago_mayor[0])
 print(chicago_mayor[4])
 print(chicago_mayor[-1])
 # # Indexing: Access characters by position (0-based index)
-# print("First character:", phrase[0])  # Output: P
-# print("Last character:", phrase[-1])  # Output: !
-
+print("First character:", phrase[0])  # Output: P
+print("Last character:", phrase[-1])  # Output: !
+phrase3 = "Supercagifragilsticgit"
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
 
@@ -76,11 +76,11 @@ print(chicago_mayor[-1])
 # # String Methods
 # # ----------------------------------------
 
-# sentence = "Python is fun to learn"
+sentence = "Python is fun to learn"
 
 # # .split(): Splits the string into a list of words
-# words = sentence.split()
-# print("Split result:", words)
+words = sentence.split()
+print("Split result:", words)
 
 # # .format(): Allows inserting values into strings using {}
 # name = "Marvin"
